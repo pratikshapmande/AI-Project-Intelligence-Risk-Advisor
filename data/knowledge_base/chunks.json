@@ -1,0 +1,362 @@
+[
+  {
+    "text": "NORTHSTAR DIGITAL SERVICES ENGINEERING STATUS NOTES Project: Customer Support Ticket Analytics Portal Date: 15 October 2026 Status: Prototype in progress CURRENT IMPLEMENTATION The application accepts CSV exports and checks required columns before dashboard calculations. The dashboard displays",
+    "source": "NORTHSTAR DIGITAL SERVICES.txt",
+    "chunk_id": 0,
+    "file_type": "txt"
+  },
+  {
+    "text": "ON The application accepts CSV exports and checks required columns before dashboard calculations. The dashboard displays basic ticket status and priority information. REQUIRED CSV FIELDS - ticket_id - created_at - priority - status - category - first_response_hours KNOWN LIMITATIONS - The system",
+    "source": "NORTHSTAR DIGITAL SERVICES.txt",
+    "chunk_id": 1,
+    "file_type": "txt"
+  },
+  {
+    "text": "CSV FIELDS - ticket_id - created_at - priority - status - category - first_response_hours KNOWN LIMITATIONS - The system currently supports file uploads only. - First-response-time metric definitions are awaiting approval. - Large-file performance has not yet been tested. - Dashboard access",
+    "source": "NORTHSTAR DIGITAL SERVICES.txt",
+    "chunk_id": 2,
+    "file_type": "txt"
+  },
+  {
+    "text": "onse-time metric definitions are awaiting approval. - Large-file performance has not yet been tested. - Dashboard access permissions are still under review. - Predictive analytics are not included in the current release. DEPENDENCIES The QA team requires a larger de-identified sample dataset. The",
+    "source": "NORTHSTAR DIGITAL SERVICES.txt",
+    "chunk_id": 3,
+    "file_type": "txt"
+  },
+  {
+    "text": "cs are not included in the current release. DEPENDENCIES The QA team requires a larger de-identified sample dataset. The engineering team also needs confirmation of access permissions for the test environment. NEXT STEPS Engineering: complete CSV validation and error handling. QA: test invalid",
+    "source": "NORTHSTAR DIGITAL SERVICES.txt",
+    "chunk_id": 4,
+    "file_type": "txt"
+  },
+  {
+    "text": "rmissions for the test environment. NEXT STEPS Engineering: complete CSV validation and error handling. QA: test invalid dates, duplicate IDs, and missing columns. Product: approve the metric definitions. Support Operations: provide a representative sample export. *Fictional training example, not",
+    "source": "NORTHSTAR DIGITAL SERVICES.txt",
+    "chunk_id": 5,
+    "file_type": "txt"
+  },
+  {
+    "text": "ove the metric definitions. Support Operations: provide a representative sample export. *Fictional training example, not an actual company record.*",
+    "source": "NORTHSTAR DIGITAL SERVICES.txt",
+    "chunk_id": 6,
+    "file_type": "txt"
+  },
+  {
+    "text": "[Page 1] PROJECT PROPOSAL Customer Support Ticket Analytics Portal Company: Northstar Digital Services (fictional) Department: Product and Engineering Project Status: In Progress Business Problem The customer support team currently prepares weekly reports manually using spreadsheets and ticket",
+    "source": "PROJECT PROPOSAL.pdf",
+    "chunk_id": 0,
+    "file_type": "pdf"
+  },
+  {
+    "text": "ress Business Problem The customer support team currently prepares weekly reports manually using spreadsheets and ticket exports. This process takes approximately four hours per week and makes it difficult to identify overdue tickets and recurring issues. Project Objective Develop an internal",
+    "source": "PROJECT PROPOSAL.pdf",
+    "chunk_id": 1,
+    "file_type": "pdf"
+  },
+  {
+    "text": "per week and makes it difficult to identify overdue tickets and recurring issues. Project Objective Develop an internal dashboard that imports support-ticket data and displays ticket volume, priority, status, backlog age, and response-time metrics. Project Scope • Upload and validate CSV ticket",
+    "source": "PROJECT PROPOSAL.pdf",
+    "chunk_id": 2,
+    "file_type": "pdf"
+  },
+  {
+    "text": "ticket volume, priority, status, backlog age, and response-time metrics. Project Scope • Upload and validate CSV ticket exports. • Display open, pending, and closed ticket counts. • Filter tickets by priority, date, and status. • Export filtered results. • Provide basic operational documentation.",
+    "source": "PROJECT PROPOSAL.pdf",
+    "chunk_id": 3,
+    "file_type": "pdf"
+  },
+  {
+    "text": "s. • Filter tickets by priority, date, and status. • Export filtered results. • Provide basic operational documentation. Deliverables 1. Requirements document and data dictionary. 2. CSV import and validation module. 3. Ticket analytics dashboard. 4. Test report. 5. Deployment and user guide.",
+    "source": "PROJECT PROPOSAL.pdf",
+    "chunk_id": 4,
+    "file_type": "pdf"
+  },
+  {
+    "text": "onary. 2. CSV import and validation module. 3. Ticket analytics dashboard. 4. Test report. 5. Deployment and user guide. Constraints The initial delivery target is six weeks. The team consists of two engineers, one QA tester, and a part-time product analyst. Only de-identified sample data may be",
+    "source": "PROJECT PROPOSAL.pdf",
+    "chunk_id": 5,
+    "file_type": "pdf"
+  },
+  {
+    "text": "he team consists of two engineers, one QA tester, and a part-time product analyst. Only de-identified sample data may be used in demonstrations. Acceptance Criteria The dashboard must import a valid CSV file, identify missing required columns, display accurate ticket totals, and allow users to",
+    "source": "PROJECT PROPOSAL.pdf",
+    "chunk_id": 6,
+    "file_type": "pdf"
+  },
+  {
+    "text": "oard must import a valid CSV file, identify missing required columns, display accurate ticket totals, and allow users to filter and export results. Dependencies [Page 2] • A representative sample ticket export. • Approval of metric definitions. • Access to a testing environment. Training example",
+    "source": "PROJECT PROPOSAL.pdf",
+    "chunk_id": 7,
+    "file_type": "pdf"
+  },
+  {
+    "text": "presentative sample ticket export. • Approval of metric definitions. • Access to a testing environment. Training example only; not an actual company document.",
+    "source": "PROJECT PROPOSAL.pdf",
+    "chunk_id": 8,
+    "file_type": "pdf"
+  },
+  {
+    "text": "task_id,task_name,team,priority,status,due_date,notes TASK-101,Confirm data dictionary,Product,High,In Progress,2026-10-16,Define required fields and metrics TASK-102,Build CSV upload,Engineering,High,Done,2026-10-12,Accept CSV files TASK-103,Validate required columns,Engineering,High,In",
+    "source": "Project_Task_Backlog.csv",
+    "chunk_id": 0,
+    "file_type": "csv"
+  },
+  {
+    "text": "uild CSV upload,Engineering,High,Done,2026-10-12,Accept CSV files TASK-103,Validate required columns,Engineering,High,In Progress,2026-10-16,Check required fields TASK-104,Handle invalid dates,Engineering,Medium,To Do,2026-10-19,Report malformed date values TASK-105,Create dashboard",
+    "source": "Project_Task_Backlog.csv",
+    "chunk_id": 1,
+    "file_type": "csv"
+  },
+  {
+    "text": "TASK-104,Handle invalid dates,Engineering,Medium,To Do,2026-10-19,Report malformed date values TASK-105,Create dashboard wireframe,Design,Medium,Done,2026-10-13,Design ticket filters and summary cards TASK-106,Prepare sample export,Support Operations,High,In Progress,2026-10-17,Provide",
+    "source": "Project_Task_Backlog.csv",
+    "chunk_id": 2,
+    "file_type": "csv"
+  },
+  {
+    "text": "n ticket filters and summary cards TASK-106,Prepare sample export,Support Operations,High,In Progress,2026-10-17,Provide de-identified ticket data TASK-107,Test duplicate ticket IDs,QA,Medium,To Do,2026-10-19,Validate duplicate detection TASK-108,Verify dashboard totals,QA,High,To",
+    "source": "Project_Task_Backlog.csv",
+    "chunk_id": 3,
+    "file_type": "csv"
+  },
+  {
+    "text": "duplicate ticket IDs,QA,Medium,To Do,2026-10-19,Validate duplicate detection TASK-108,Verify dashboard totals,QA,High,To Do,2026-10-20,Compare against manual calculations TASK-109,Review access permissions,IT Operations,High,Blocked,2026-10-21,Confirm access to test environment TASK-110,Write",
+    "source": "Project_Task_Backlog.csv",
+    "chunk_id": 4,
+    "file_type": "csv"
+  },
+  {
+    "text": "SK-109,Review access permissions,IT Operations,High,Blocked,2026-10-21,Confirm access to test environment TASK-110,Write deployment guide,Engineering,Low,To Do,2026-10-22,Document setup and rollback TASK-111,Approve response-time definition,Product,High,Blocked,2026-10-16,Confirm metric definition",
+    "source": "Project_Task_Backlog.csv",
+    "chunk_id": 5,
+    "file_type": "csv"
+  },
+  {
+    "text": "t setup and rollback TASK-111,Approve response-time definition,Product,High,Blocked,2026-10-16,Confirm metric definition TASK-112,Test large CSV imports,QA,Medium,To Do,2026-10-22,Check import performance *Fictional training data.*,,,,,,",
+    "source": "Project_Task_Backlog.csv",
+    "chunk_id": 6,
+    "file_type": "csv"
+  },
+  {
+    "text": "SPRINT MEETING NOTES Project: Customer Support Ticket Analytics Portal Company: Northstar Digital Services (fictional) Meeting Date: 14 October 2026 Progress CSV upload functionality has been implemented. The dashboard wireframe has been reviewed. QA has prepared test cases for missing columns and",
+    "source": "SPRINT MEETING NOTES.docx",
+    "chunk_id": 0,
+    "file_type": "docx"
+  },
+  {
+    "text": "lity has been implemented. The dashboard wireframe has been reviewed. QA has prepared test cases for missing columns and invalid dates. The data dictionary is awaiting approval. Decisions The default dashboard will display open and pending tickets. Closed tickets will be available through a filter.",
+    "source": "SPRINT MEETING NOTES.docx",
+    "chunk_id": 1,
+    "file_type": "docx"
+  },
+  {
+    "text": "ecisions The default dashboard will display open and pending tickets. Closed tickets will be available through a filter. Demonstration data must not contain customer names or email addresses. Direct integration with the ticketing platform is outside the first release. Blockers The",
+    "source": "SPRINT MEETING NOTES.docx",
+    "chunk_id": 2,
+    "file_type": "docx"
+  },
+  {
+    "text": "omer names or email addresses. Direct integration with the ticketing platform is outside the first release. Blockers The first-response-time metric has not been formally defined. A larger sample CSV file is required for performance testing. QA environment access needs confirmation. Action Items",
+    "source": "SPRINT MEETING NOTES.docx",
+    "chunk_id": 3,
+    "file_type": "docx"
+  },
+  {
+    "text": "ed. A larger sample CSV file is required for performance testing. QA environment access needs confirmation. Action Items Next Meeting 20 October 2026. Training example only; all names and project details are fictional. Action | Owner | Due Date | Status Approve metric definition | Maya Chen | 16",
+    "source": "SPRINT MEETING NOTES.docx",
+    "chunk_id": 4,
+    "file_type": "docx"
+  },
+  {
+    "text": "l names and project details are fictional. Action | Owner | Due Date | Status Approve metric definition | Maya Chen | 16 Oct 2026 | Open Provide sample CSV | Daniel Brooks | 17 Oct 2026 | In Progress Run import validation tests | Priya Shah | 19 Oct 2026 | Not Started Confirm QA access | Arjun Rao",
+    "source": "SPRINT MEETING NOTES.docx",
+    "chunk_id": 5,
+    "file_type": "docx"
+  },
+  {
+    "text": "ct 2026 | In Progress Run import validation tests | Priya Shah | 19 Oct 2026 | Not Started Confirm QA access | Arjun Rao | 16 Oct 2026 | In Progress",
+    "source": "SPRINT MEETING NOTES.docx",
+    "chunk_id": 6,
+    "file_type": "docx"
+  },
+  {
+    "text": "NORTHSTAR DIGITAL SERVICES ENGINEERING STATUS NOTES Project: Customer Support Ticket Analytics Portal Date: 15 October 2026 Status: Prototype in progress CURRENT IMPLEMENTATION The application accepts CSV exports and checks required columns before dashboard calculations. The dashboard displays",
+    "source": "NORTHSTAR DIGITAL SERVICES.txt",
+    "chunk_id": 0,
+    "file_type": "txt"
+  },
+  {
+    "text": "ON The application accepts CSV exports and checks required columns before dashboard calculations. The dashboard displays basic ticket status and priority information. REQUIRED CSV FIELDS - ticket_id - created_at - priority - status - category - first_response_hours KNOWN LIMITATIONS - The system",
+    "source": "NORTHSTAR DIGITAL SERVICES.txt",
+    "chunk_id": 1,
+    "file_type": "txt"
+  },
+  {
+    "text": "CSV FIELDS - ticket_id - created_at - priority - status - category - first_response_hours KNOWN LIMITATIONS - The system currently supports file uploads only. - First-response-time metric definitions are awaiting approval. - Large-file performance has not yet been tested. - Dashboard access",
+    "source": "NORTHSTAR DIGITAL SERVICES.txt",
+    "chunk_id": 2,
+    "file_type": "txt"
+  },
+  {
+    "text": "onse-time metric definitions are awaiting approval. - Large-file performance has not yet been tested. - Dashboard access permissions are still under review. - Predictive analytics are not included in the current release. DEPENDENCIES The QA team requires a larger de-identified sample dataset. The",
+    "source": "NORTHSTAR DIGITAL SERVICES.txt",
+    "chunk_id": 3,
+    "file_type": "txt"
+  },
+  {
+    "text": "cs are not included in the current release. DEPENDENCIES The QA team requires a larger de-identified sample dataset. The engineering team also needs confirmation of access permissions for the test environment. NEXT STEPS Engineering: complete CSV validation and error handling. QA: test invalid",
+    "source": "NORTHSTAR DIGITAL SERVICES.txt",
+    "chunk_id": 4,
+    "file_type": "txt"
+  },
+  {
+    "text": "rmissions for the test environment. NEXT STEPS Engineering: complete CSV validation and error handling. QA: test invalid dates, duplicate IDs, and missing columns. Product: approve the metric definitions. Support Operations: provide a representative sample export. *Fictional training example, not",
+    "source": "NORTHSTAR DIGITAL SERVICES.txt",
+    "chunk_id": 5,
+    "file_type": "txt"
+  },
+  {
+    "text": "ove the metric definitions. Support Operations: provide a representative sample export. *Fictional training example, not an actual company record.*",
+    "source": "NORTHSTAR DIGITAL SERVICES.txt",
+    "chunk_id": 6,
+    "file_type": "txt"
+  },
+  {
+    "text": "[Page 1] PROJECT PROPOSAL Customer Support Ticket Analytics Portal Company: Northstar Digital Services (fictional) Department: Product and Engineering Project Status: In Progress Business Problem The customer support team currently prepares weekly reports manually using spreadsheets and ticket",
+    "source": "PROJECT PROPOSAL.pdf",
+    "chunk_id": 0,
+    "file_type": "pdf"
+  },
+  {
+    "text": "ress Business Problem The customer support team currently prepares weekly reports manually using spreadsheets and ticket exports. This process takes approximately four hours per week and makes it difficult to identify overdue tickets and recurring issues. Project Objective Develop an internal",
+    "source": "PROJECT PROPOSAL.pdf",
+    "chunk_id": 1,
+    "file_type": "pdf"
+  },
+  {
+    "text": "per week and makes it difficult to identify overdue tickets and recurring issues. Project Objective Develop an internal dashboard that imports support-ticket data and displays ticket volume, priority, status, backlog age, and response-time metrics. Project Scope • Upload and validate CSV ticket",
+    "source": "PROJECT PROPOSAL.pdf",
+    "chunk_id": 2,
+    "file_type": "pdf"
+  },
+  {
+    "text": "ticket volume, priority, status, backlog age, and response-time metrics. Project Scope • Upload and validate CSV ticket exports. • Display open, pending, and closed ticket counts. • Filter tickets by priority, date, and status. • Export filtered results. • Provide basic operational documentation.",
+    "source": "PROJECT PROPOSAL.pdf",
+    "chunk_id": 3,
+    "file_type": "pdf"
+  },
+  {
+    "text": "s. • Filter tickets by priority, date, and status. • Export filtered results. • Provide basic operational documentation. Deliverables 1. Requirements document and data dictionary. 2. CSV import and validation module. 3. Ticket analytics dashboard. 4. Test report. 5. Deployment and user guide.",
+    "source": "PROJECT PROPOSAL.pdf",
+    "chunk_id": 4,
+    "file_type": "pdf"
+  },
+  {
+    "text": "onary. 2. CSV import and validation module. 3. Ticket analytics dashboard. 4. Test report. 5. Deployment and user guide. Constraints The initial delivery target is six weeks. The team consists of two engineers, one QA tester, and a part-time product analyst. Only de-identified sample data may be",
+    "source": "PROJECT PROPOSAL.pdf",
+    "chunk_id": 5,
+    "file_type": "pdf"
+  },
+  {
+    "text": "he team consists of two engineers, one QA tester, and a part-time product analyst. Only de-identified sample data may be used in demonstrations. Acceptance Criteria The dashboard must import a valid CSV file, identify missing required columns, display accurate ticket totals, and allow users to",
+    "source": "PROJECT PROPOSAL.pdf",
+    "chunk_id": 6,
+    "file_type": "pdf"
+  },
+  {
+    "text": "oard must import a valid CSV file, identify missing required columns, display accurate ticket totals, and allow users to filter and export results. Dependencies [Page 2] • A representative sample ticket export. • Approval of metric definitions. • Access to a testing environment. Training example",
+    "source": "PROJECT PROPOSAL.pdf",
+    "chunk_id": 7,
+    "file_type": "pdf"
+  },
+  {
+    "text": "presentative sample ticket export. • Approval of metric definitions. • Access to a testing environment. Training example only; not an actual company document.",
+    "source": "PROJECT PROPOSAL.pdf",
+    "chunk_id": 8,
+    "file_type": "pdf"
+  },
+  {
+    "text": "task_id,task_name,team,priority,status,due_date,notes TASK-101,Confirm data dictionary,Product,High,In Progress,2026-10-16,Define required fields and metrics TASK-102,Build CSV upload,Engineering,High,Done,2026-10-12,Accept CSV files TASK-103,Validate required columns,Engineering,High,In",
+    "source": "Project_Task_Backlog.csv",
+    "chunk_id": 0,
+    "file_type": "csv"
+  },
+  {
+    "text": "uild CSV upload,Engineering,High,Done,2026-10-12,Accept CSV files TASK-103,Validate required columns,Engineering,High,In Progress,2026-10-16,Check required fields TASK-104,Handle invalid dates,Engineering,Medium,To Do,2026-10-19,Report malformed date values TASK-105,Create dashboard",
+    "source": "Project_Task_Backlog.csv",
+    "chunk_id": 1,
+    "file_type": "csv"
+  },
+  {
+    "text": "TASK-104,Handle invalid dates,Engineering,Medium,To Do,2026-10-19,Report malformed date values TASK-105,Create dashboard wireframe,Design,Medium,Done,2026-10-13,Design ticket filters and summary cards TASK-106,Prepare sample export,Support Operations,High,In Progress,2026-10-17,Provide",
+    "source": "Project_Task_Backlog.csv",
+    "chunk_id": 2,
+    "file_type": "csv"
+  },
+  {
+    "text": "n ticket filters and summary cards TASK-106,Prepare sample export,Support Operations,High,In Progress,2026-10-17,Provide de-identified ticket data TASK-107,Test duplicate ticket IDs,QA,Medium,To Do,2026-10-19,Validate duplicate detection TASK-108,Verify dashboard totals,QA,High,To",
+    "source": "Project_Task_Backlog.csv",
+    "chunk_id": 3,
+    "file_type": "csv"
+  },
+  {
+    "text": "duplicate ticket IDs,QA,Medium,To Do,2026-10-19,Validate duplicate detection TASK-108,Verify dashboard totals,QA,High,To Do,2026-10-20,Compare against manual calculations TASK-109,Review access permissions,IT Operations,High,Blocked,2026-10-21,Confirm access to test environment TASK-110,Write",
+    "source": "Project_Task_Backlog.csv",
+    "chunk_id": 4,
+    "file_type": "csv"
+  },
+  {
+    "text": "SK-109,Review access permissions,IT Operations,High,Blocked,2026-10-21,Confirm access to test environment TASK-110,Write deployment guide,Engineering,Low,To Do,2026-10-22,Document setup and rollback TASK-111,Approve response-time definition,Product,High,Blocked,2026-10-16,Confirm metric definition",
+    "source": "Project_Task_Backlog.csv",
+    "chunk_id": 5,
+    "file_type": "csv"
+  },
+  {
+    "text": "t setup and rollback TASK-111,Approve response-time definition,Product,High,Blocked,2026-10-16,Confirm metric definition TASK-112,Test large CSV imports,QA,Medium,To Do,2026-10-22,Check import performance *Fictional training data.*,,,,,,",
+    "source": "Project_Task_Backlog.csv",
+    "chunk_id": 6,
+    "file_type": "csv"
+  },
+  {
+    "text": "SPRINT MEETING NOTES Project: Customer Support Ticket Analytics Portal Company: Northstar Digital Services (fictional) Meeting Date: 14 October 2026 Progress CSV upload functionality has been implemented. The dashboard wireframe has been reviewed. QA has prepared test cases for missing columns and",
+    "source": "SPRINT MEETING NOTES.docx",
+    "chunk_id": 0,
+    "file_type": "docx"
+  },
+  {
+    "text": "lity has been implemented. The dashboard wireframe has been reviewed. QA has prepared test cases for missing columns and invalid dates. The data dictionary is awaiting approval. Decisions The default dashboard will display open and pending tickets. Closed tickets will be available through a filter.",
+    "source": "SPRINT MEETING NOTES.docx",
+    "chunk_id": 1,
+    "file_type": "docx"
+  },
+  {
+    "text": "ecisions The default dashboard will display open and pending tickets. Closed tickets will be available through a filter. Demonstration data must not contain customer names or email addresses. Direct integration with the ticketing platform is outside the first release. Blockers The",
+    "source": "SPRINT MEETING NOTES.docx",
+    "chunk_id": 2,
+    "file_type": "docx"
+  },
+  {
+    "text": "omer names or email addresses. Direct integration with the ticketing platform is outside the first release. Blockers The first-response-time metric has not been formally defined. A larger sample CSV file is required for performance testing. QA environment access needs confirmation. Action Items",
+    "source": "SPRINT MEETING NOTES.docx",
+    "chunk_id": 3,
+    "file_type": "docx"
+  },
+  {
+    "text": "ed. A larger sample CSV file is required for performance testing. QA environment access needs confirmation. Action Items Next Meeting 20 October 2026. Training example only; all names and project details are fictional. Action | Owner | Due Date | Status Approve metric definition | Maya Chen | 16",
+    "source": "SPRINT MEETING NOTES.docx",
+    "chunk_id": 4,
+    "file_type": "docx"
+  },
+  {
+    "text": "l names and project details are fictional. Action | Owner | Due Date | Status Approve metric definition | Maya Chen | 16 Oct 2026 | Open Provide sample CSV | Daniel Brooks | 17 Oct 2026 | In Progress Run import validation tests | Priya Shah | 19 Oct 2026 | Not Started Confirm QA access | Arjun Rao",
+    "source": "SPRINT MEETING NOTES.docx",
+    "chunk_id": 5,
+    "file_type": "docx"
+  },
+  {
+    "text": "ct 2026 | In Progress Run import validation tests | Priya Shah | 19 Oct 2026 | Not Started Confirm QA access | Arjun Rao | 16 Oct 2026 | In Progress",
+    "source": "SPRINT MEETING NOTES.docx",
+    "chunk_id": 6,
+    "file_type": "docx"
+  }
+]
