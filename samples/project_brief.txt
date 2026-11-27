@@ -1,0 +1,6 @@
+Project: Campus Connect Portal
+Objective: Build a web portal for students to view events and register for workshops.
+Scope requirement: The portal shall support student login, event browsing, and workshop registration.
+Milestone 1 deliverable: Login and event listing prototype due 15 November 2026. The product owner is Asha Rao.
+Risk: Integration testing may be delayed because the identity provider sandbox is not available.
+Action item: Dev team will review the login integration after sandbox access is restored.
